@@ -13,25 +13,35 @@
 
 # Compatible Kernels
 
-| Kernel                                            | x86    | x86_64 | Android version       |
-|---------------------------------------------------|:------:|:------:|-----------------------|
-| 3.10.0+                                           | ✓      |        | 7.0/7.1 (Google Play) |
-| 3.18.56+                                          | ✓      |        | 8.0 (Google Play)     |
-| 3.18.91+                                          | ✓      |        | 8.1 (Google Play)     |
-| 4.4.124+                                          | ✓      | ✓      | 9.0 (Google Play)     |
-| 4.14.112+                                         | ✓      | ✓      | 9.0 (Google Play)     |
-| 5.4.36-00815-g3b29042c17b1                        | ✓      | ✓      | 10.0 (Google Play)    |
-| 5.4.43-00621-g90087296b3b1                        | ✓      | ✓      | 10.0 (Google Play)    |
-| 5.4.47-01061-g22e35a1de440                        | ✓      | ✓      | 10.0 (Google Play)    |
-| 5.4.54-android11-0-00619-g476c942d9b3e-ab6722723  | ✓      | ✓      | 11.0 (Google Play)    |
-| 5.4.61-android11-0-00791-gbad091cc4bf3-ab6833933  | ✓      | ✓      | 11.0 (Google Play)    |
-| 5.4.61-android11-2-00064-g4271ad6e8ade-ab6991359  |        | ✓      | 11.0 (Google Play)    |
-| 5.10.4-android12-0-03442-gf2684370d34d-ab7068937  |        | ✓      | 12.0 (Google Play)    |
-| 5.10.15-android12-0-01814-gfca78df78ef2-ab7137072 |        | ✓      | 12.0 (Google Play)    |
-| 5.10.21-android12-0-01012-gcc574f0d3698-ab7214561 |        | ✓      | 12.0 (Google Play)    |
-| 5.10.21-android12-0-01145-ge82381ad9a3f-ab7230153 |        | ✓      | 12.0 (Google Play)    |
-| 5.10.35-android12-4-00865-gd9d0c09e0a3b-ab7349034 |        | ✓      | 12.0 (Google Play)    |
-| 5.10.43-android12-6-00231-g54e7412d4ff9-ab7460289 |        | ✓      | 12.0 (Google Play)    |
+| Kernel                                             | x86    | x86_64 | Android version              |
+|----------------------------------------------------|:------:|:------:|------------------------------|
+| 3.10.0+                                            | ✓      |        | 7.0 / 7.1                    |
+| 3.18.56+                                           | ✓      |        | 8.0                          |
+| 3.18.91+                                           | ✓      |        | 8.1                          |
+| 4.4.124+                                           | ✓      | ✓      | 9.0                          |
+| 4.14.112+                                          | ✓      | ✓      | 9.0 + 10.0 (TV / Automotive) |
+| 5.4.36-00815-g3b29042c17b1                         | ✓      | ✓      | 10.0                         |
+| 5.4.43-00621-g90087296b3b1                         | ✓      | ✓      | 10.0                         |
+| 5.4.47-01061-g22e35a1de440                         | ✓      | ✓      | 10.0                         |
+| 5.4.54-android11-0-00619-g476c942d9b3e-ab6722723   | ✓      | ✓      | 11.0                         |
+| 5.4.61-android11-0-00791-gbad091cc4bf3-ab6833933   | ✓      | ✓      | 11.0                         |
+| 5.4.61-android11-2-00064-g4271ad6e8ade-ab6991359   |        | ✓      | 11.0                         |
+| 5.4.86-android11-2-00006-gae78026f427c-ab7595864   |        | ✓      | 11.0 (Automotive)            |
+| 5.4.86-android11-2-00040-g29b2beadc627-ab7157994   | ✓      | ✓      | 11.0 (TV / Automotive)       |
+| 5.10.4-android12-0-03442-gf2684370d34d-ab7068937   |        | ✓      | 12.0                         |
+| 5.10.15-android12-0-01814-gfca78df78ef2-ab7137072  |        | ✓      | 12.0                         |
+| 5.10.21-android12-0-01012-gcc574f0d3698-ab7214561  |        | ✓      | 12.0                         |
+| 5.10.21-android12-0-01145-ge82381ad9a3f-ab7230153  |        | ✓      | 12.0                         |
+| 5.10.35-android12-4-00865-gd9d0c09e0a3b-ab7349034  |        | ✓      | 12.0                         |
+| 5.10.43-android12-6-00231-g54e7412d4ff9-ab7460289  |        | ✓      | 12.0                         |
+| 5.10.43-android12-9-00001-ga30f38980440-ab7882141  |        | ✓      | 12.0                         |
+| 5.10.66-android12-9-00022-g2d6a43c0364d-ab7992900  | ✓      |        | 12.0 (TV)                    |
+| 5.10.66-android12-9-00041-gfa9c9074531e-ab7914766  |        | ✓      | 12.0                         |
+| 5.10.102-android13-0-00549-g255b30f804ac-ab8238117 | ✓      | ✓      | 13.0 + 13.0 (TV)             |
+| 5.10.107-android13-2-00451-g7ba447d0399b-ab8409457 |        | ✓      | 13.0                         |
+| 5.15.32-android13-3-00067-g7b5e736d7c63-ab8474665  |        | ✓      | 13.0                         |
+| 5.15.41-android13-6-02245-g158384f20d1e-ab8610100  |        | ✓      | 13.0                         |
+| 5.15.41-android13-8-00205-gf1bf82c3dacd-ab8747247  |        | ✓      | 13.0                         |
 
 # Requirements
 
@@ -59,18 +69,29 @@ python3 setup.py install --user
 
 A Docker image of *AERoot* is available on [dockerhub](https://hub.docker.com/r/ha0ris/aeroot).
 
+Also, you can build an image by yourself:
+```bash
+docker build -t aeroot https://github.com/quarkslab/AERoot.git
+```
+
 ### Linux
 
 #### Usage
 
 ```bash
-docker run --rm --network host ha0ris/aeroot [aeroot options]
+docker run --rm \
+           -v $HOME/.emulator_console_auth_token:$HOME/.emulator_console_auth_token \
+           --network host \
+           ha0ris/aeroot [aeroot options]
 ```
 
 #### Example
 
 ```bash
-docker run --rm --network host ha0ris/aeroot daemon
+docker run --rm \
+           -v $HOME/.emulator_console_auth_token:$HOME/.emulator_console_auth_token \
+           --network host \
+           ha0ris/aeroot daemon
 ```
 
 ### macOS
@@ -78,13 +99,17 @@ docker run --rm --network host ha0ris/aeroot daemon
 #### Usage
 
 ```bash
-docker run --rm ha0ris/aeroot --host host.docker.internal [aeroot options]
+docker run --rm \
+           -v $HOME/.emulator_console_auth_token:$HOME/.emulator_console_auth_token \
+           ha0ris/aeroot --host host.docker.internal [aeroot options]
 ```
 
 #### Example
 
 ```bash
-docker run --rm ha0ris/aeroot --host host.docker.internal daemon
+docker run --rm \
+           -v $HOME/.emulator_console_auth_token:$HOME/.emulator_console_auth_token \
+           ha0ris/aeroot --host host.docker.internal daemon
 ```
 
 # Quick-start
